@@ -21,7 +21,7 @@ jobs:
           testCommand: dotnet test .
           projectKey: emitch1202
           projectName: Emitch1202
-          sonarOrganisation: Emitch1202
+#           sonarOrganisation: Emitch1202
           beginArguments: >
             /d:sonar.verbose="true"
             /d:sonar.cs.opencover.reportsPaths='"/path/to/coverage.xml","/path/to/coverage.2.xml"'
