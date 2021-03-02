@@ -13,3 +13,17 @@ jobs:
           dotnet-version: '5.0.101' # Check for latest at link at .NET 5 download page
       - run: dotnet build
 #       - run: dotnet test
+
+#       - name: SonarScanner for .NET 5 with pull request decoration support
+#         uses: highbyte/sonarscan-dotnet@2.0
+#         with:
+#         # The key of the SonarQube project
+#          sonarProjectKey: your_projectkey
+#         # The name of the SonarQube project
+#          sonarProjectName:  your_projectname
+#         # The name of the SonarQube organization in SonarCloud. For hosted SonarQube, skip this setting.
+#          sonarOrganization: your_organization
+
+#         env:
+#           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+#           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
