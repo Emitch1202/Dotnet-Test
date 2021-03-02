@@ -20,7 +20,7 @@ jobs:
           buildCommand: dotnet build .
           testCommand: dotnet test .
           projectKey: emitch1202
-          projectName: Emitch1202
+          projectName: Dotnet-Test
           sonarOrganisation: Emitch1202
 #           beginArguments: >
 #             /d:sonar.verbose="true"
