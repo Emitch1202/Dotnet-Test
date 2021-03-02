@@ -22,7 +22,7 @@ jobs:
         # The name of the SonarQube project
          sonarProjectName:  Emitch1202
         # The name of the SonarQube organization in SonarCloud. For hosted SonarQube, skip this setting.
-#          sonarOrganization: Emitch1202
+         sonarOrganization: Emitch1202
 
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
