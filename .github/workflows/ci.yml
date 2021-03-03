@@ -19,7 +19,7 @@ jobs:
         with:
           buildCommand: dotnet build .
           testCommand: dotnet test .
-          projectKey: emitch1202
+          projectKey: Emitch1202_Dotnet-Test
           projectName: Dotnet-Test
           sonarOrganisation: emitch1202
 #           beginArguments: >
