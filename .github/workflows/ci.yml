@@ -24,6 +24,7 @@ jobs:
           sonarProjectName:  Dotnet-Test
         # The name of the SonarQube organization in SonarCloud. For hosted SonarQube, skip this setting.
           sonarOrganization: emitch1202
+          dotnetDisableTests: true
 
         env:
          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
