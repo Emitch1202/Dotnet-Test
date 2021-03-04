@@ -25,8 +25,8 @@ jobs:
         # The name of the SonarQube organization in SonarCloud. For hosted SonarQube, skip this setting.
           sonarOrganization: emitch1202
           dotnetDisableTests: false
-          dotnetBuildArguments: ./MyApp
-          dotnetTestArguments: ./MyApp --logger trx --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=opencover
+          dotnetBuildArguments: ./
+          dotnetTestArguments: ./ --logger trx --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=opencover
 v
 
         env:
