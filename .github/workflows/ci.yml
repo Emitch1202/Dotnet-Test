@@ -24,7 +24,10 @@ jobs:
           sonarProjectName:  Dotnet-Test
         # The name of the SonarQube organization in SonarCloud. For hosted SonarQube, skip this setting.
           sonarOrganization: emitch1202
-          dotnetDisableTests: true
+          dotnetDisableTests: false
+          dotnetBuildArguments: ./MyApp
+          dotnetTestArguments: ./MyApp --logger trx --collect:"XPlat Code Coverage" -- DataCollectionRunSettings.DataCollectors.DataCollector.Configuration.Format=opencover
+v
 
         env:
          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
